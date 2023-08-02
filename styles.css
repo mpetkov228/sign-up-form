@@ -126,12 +126,15 @@ input[type=password]:focus {
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.301);
 }
 
+input:invalid {
+    border: 1px solid red;
+}
+
 .form-main .error-msg {
     font-size: 12px;
     font-weight: normal;
     color: red;
     padding-top: 2px;
-    visibility: hidden;
 }
 
 .form-submit {

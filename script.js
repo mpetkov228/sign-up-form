@@ -1,18 +1,20 @@
+const errorMsg = document.querySelector('.error-msg');
+
 function checkPasswords(form) {
     let pass = form.pass.value;
     let repass = form.repass.value;
     
     if (pass == '') {
-        alert('Please enter password!');
+        errorMsg.style.visibility = 'visible';
         return false;
     } else if (repass == '') {
-        alert('Please enter confirm password!');
+        errorMsg.style.visibility = 'visible';
         return false;
     } else if (pass != repass) {
-        alert('Passwords do not match!');
+        errorMsg.style.visibility = 'visible';
         return false;
     } else {
-        alert('Success!');
+        errorMsg.style.visibility = 'hidden';
         return true;
     }
 }
