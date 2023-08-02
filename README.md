@@ -8,3 +8,4 @@ Practiced concepts:
   - HTML Forms
   - Form validation
   - Form styling
+  - Validations using JavaScript
