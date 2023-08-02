@@ -28,3 +28,60 @@ form {
 .form-header p:first-child {
     margin-bottom: 20px;
 }
+
+.form-main {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 35px;
+}
+
+.form-main p {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.row {
+    display: flex;
+    margin-top: 25px;
+    gap: 60px;
+}
+
+.row label {
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.685);
+}
+
+.row input {
+    display: block;
+    padding: 6px 10px;
+    width: 250px;
+    border: 1px solid #E5E7EB;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: bold;
+    outline: none;
+}
+
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=tel]:focus {
+    border: 1px solid blue;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.301);
+}
+
+.form-submit {
+    padding: 20px 35px;
+}
+
+.submit-button {
+    padding: 12px 45px;
+    background-color: #596D48;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
