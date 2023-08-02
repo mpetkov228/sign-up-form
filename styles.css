@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.form-header, .form-submit {
+    background-color: #f7f7f7
+}
+
+.form-header {
+    padding: 100px 80px 45px 35px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.form-header p {
+    margin-right: 40px;
+}
+
+.form-header p:first-child {
+    margin-bottom: 20px;
+}
