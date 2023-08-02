@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Norse-Bold';
+    src: url(fonts/Norse-Bold.otf);
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -19,6 +24,23 @@ img {
     height: 100%;
 }
 
+.logo {
+    font-family: 'Norse-Bold';
+    font-size: 100px;
+    background-color: rgba(0, 0, 0, 0.329);
+    position: absolute;
+    width: 100%;
+    top: 20%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+}
+
+.logo img {
+    height: 16vh;
+}
 
 .image-container p {
     position: absolute;
@@ -27,6 +49,7 @@ img {
     color: white;
     font-size: 2vh;
 }
+
 
 .image-container p a:active,
 .image-container p a:visited {
@@ -54,7 +77,7 @@ form {
 }
 
 .form-header p {
-    margin-right: 250px;
+    margin-right: 180px;
 }
 
 .form-header p:first-child {
