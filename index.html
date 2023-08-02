@@ -18,7 +18,7 @@
             </div>
             <p>Photo by <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on <a href="https://unsplash.com/photos/25xggax4bSA">Unsplash</a></p>
         </div>
-        <form>
+        <form onsubmit="return checkPasswords(this)">
             <div class="form-header">
                 <p>This is not a real online service! You know you need something like this in your life
                     to help you realize your deepest dreams. <br> Sign up <em>now</em> to get started.
@@ -50,16 +50,16 @@
                 <div class="row">
                     <div>
                         <label for="password">Password</label>
-                        <input type="password" id="password" name="password">
+                        <input type="password" id="pass" name="pass">
                     </div>
                     <div>
                         <label for="re-password">Confirm Password</label>
-                        <input type="password" id="re-password" name="re-password">
+                        <input type="password" id="repass" name="repass">
                     </div>
                 </div>
             </div>
             <div class="form-submit">
-                <button class="submit-button">Create Account</button>
+                <button type="submit" class="submit-button">Create Account</button>
                 <p>Already have an account? <a href="#">Log in</a></p>
             </div>
         </form>
